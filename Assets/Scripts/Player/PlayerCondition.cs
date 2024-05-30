@@ -28,7 +28,7 @@ public class PlayerCondition : MonoBehaviour
     }
     public void Eat(float amout)
     {
-        Hp.Add(amout);
+        Mp.Add(amout);
     }
     public void die()
     {

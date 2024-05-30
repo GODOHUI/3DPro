@@ -13,6 +13,8 @@ public class UICondition : MonoBehaviour
         CharacterManager.Instance.Player.condition.uiCondition = this;
     }
 
+  //e버튼을 누르면 먹어지고  mphp차게 만든다
+    /// </summary>
     // Update is called once per frame
     void Update()
     {

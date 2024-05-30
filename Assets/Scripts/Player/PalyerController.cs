@@ -96,7 +96,7 @@ public class PalyerController : MonoBehaviour
         {
             if (Physics.Raycast(rays[i], 0.5f, groundLayerMask))
             {
-                Debug.Log("true");
+              //  Debug.Log("true");
                 return true;
             }
         }

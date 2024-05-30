@@ -10,7 +10,13 @@ public class Player : MonoBehaviour
    public PlayerCondition condition;
     public ItemData itemData;
     public Action addItem;
+    //이벤트를 만들어야한다 이벤트 
 
+    public void Eatting(IEnumerator co) 
+    {
+                  StartCoroutine(co); //여기서 코르틴이 돌아간다
+
+    }
     private void Awake()
     {
         CharacterManager.Instance.Player = this;
